@@ -1,0 +1,31 @@
+test = {
+  'name': 'Question 2_7',
+  'points': 1,
+  'suites': [
+    {
+      'cases': [
+        {
+          'code': r"""
+          >>> # Make sure your answer is a number between 1 and 3!
+          >>> 1 <= cutoff_ten_percent <= 3
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> cutoff_ten_percent
+          1
+          """,
+          'hidden': True,
+          'locked': False
+        },
+      ],
+      'scored': True,
+      'setup': '',
+      'teardown': '',
+      'type': 'doctest'
+    }
+  ]
+}
